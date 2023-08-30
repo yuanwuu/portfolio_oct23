@@ -23,7 +23,7 @@ const Main = () => {
                 2000, 
                 "UX Designer",
                 2000,
-                "Coder",
+                "Front-End Developer",
                 2000,
               ]}
               wrapper="span"
