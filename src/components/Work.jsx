@@ -21,7 +21,7 @@ const data = [
     title: "Production Assistant",
     duration: "9 months",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure",
+      "In the role of a production assistant, I orchestrated the synchronization of designated manufacturers with the production timetable, meticulously overseeing potential challenges and subsequently furnishing comprehensive reports to the supervisor.",
   }
 ];
 const Work = () => {

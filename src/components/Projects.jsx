@@ -3,6 +3,7 @@ import ProjectItem from './ProjectItem'
 import sampleImg from '../assets/logo.png'
 import farkledGame from '../assets/farkled.png'
 import bookshelfApp from '../assets/bookshelf.png'
+import nikeLanding from '../assets/nike-landing.png'
 
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 gap-12'>
             <ProjectItem img={farkledGame} title='farkled' />
             <ProjectItem img={bookshelfApp} title='bookshelf' />
-            <ProjectItem img={sampleImg} title='sample Img' />
+            <ProjectItem img={nikeLanding} title='nike landing page' />
             <ProjectItem img={sampleImg} title='sample Img' />
         </div>
       </div>
