@@ -1,8 +1,6 @@
-import bookshelf from './assets/bookshelf.png'
-import farkled from './assets/farkled.png'
-import nikeLanding from './assets/nike-landing.png'
 
-const data = [
+
+const uxData = [
     {img: bookshelf,
     title: 'Bookshelf',
     link:'https://whimsical-naiad-8feeab.netlify.app'},
@@ -16,4 +14,4 @@ const data = [
     }
 ]
 
-export default data
+export default uxData
