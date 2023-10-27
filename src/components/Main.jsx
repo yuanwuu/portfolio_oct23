@@ -2,6 +2,14 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
+app.use(express.static('public', {
+  setHeaders: (res, path) => {
+    if (path.endsWith('.jsx')) {
+      res.type('text/javascript');
+    }
+  }
+}));
+
 const Main = () => {
   return (
     <div id="main">
